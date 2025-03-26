@@ -1,0 +1,7 @@
+{
+  "name": "smartphone-calendar",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
