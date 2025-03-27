@@ -24,4 +24,15 @@ The app performs a basic HTTP request to a static server endpoint and displays a
 
 ---
 
-## 📦 Installation
+## 🛠 Troubleshooting
+
+### ❌ Error: `Could not read script '.../android/capacitor.settings.gradle' as it does not exist.`
+
+This error usually occurs if the Android project has missing or outdated Capacitor configuration.
+
+#### ✅ Solution
+
+Run the following command to re-sync the Capacitor configuration and regenerate missing files:
+
+```bash
+ionic capacitor sync android
